@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Outfit:wght@400;700&display=swap');
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+.card{
+    background-color:hsl(216, 50%, 16%);
+    width:350px;
+    height:618px;
+    border-radius: 10px;
+    margin:5% auto;
+}
+
+.main_img{
+    width:85%;
+    border-radius: 10px;
+    margin: 25px 25px 0 25px
+}
+h2{
+  color:hsl(0, 0%, 100%);
+  margin: 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700px;
+}
+.main_p{
+   color:hsl(215, 51%, 70%);
+   margin:25px 10px 5px 25px;
+   font-size:18px;
+   line-height:27px;
+   font-family: "Outfit", sans-serif;
+   font-weight: 400px;
+}
+.eth_img{
+    width:12px;
+    height:20px;
+    margin: auto 5px auto 1px;
+}
+.eth_sec{
+    display: flex;
+}
+.time_sec{
+    display: flex;
+}
+
+.main_info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 5px 25px;
+}
+.p_time{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400px;
+}
+.p_eth{
+    font-size: 18px;
+    color: hsl(178, 100%, 50%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400px; 
+}
+.main_hr{
+    width:290px;
+    margin:auto;
+    color: hsl(215, 51%, 70%);
+}
+.img_avatar{
+    width:10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin:25px;
+}
+.span_name{
+    color:white;
+}
+.footer_info{
+    display:flex;
+}
+.name_p{
+    color:hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    margin-top: 32px;
+}
+.main_img:hover{
+    cursor: pointer;
+};
